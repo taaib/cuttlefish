@@ -8,8 +8,13 @@
             "name": "Launch Package",
             "type": "go",
             "request": "launch",
-            "mode": "auto",
-            "program": "${fileDirname}"
+            "mode": "debug",
+            "program": "${workspaceFolder}/main.go",
+            "args": [
+                "claimable",
+                "--config","C:/work/github.com/taaib/cuttlefish/exampleconfig/cuttlefish.cfg",
+                "--log","C:/work/scratch/logger/"
+            ]   
         }
     ]
 }
