@@ -16,7 +16,7 @@ import (
 	gsConfig "github.com/stellar/go/support/config"
 	ksUtils "github.com/stellar/kelp/support/utils"
 )
-const cuttleExamples = `  rockfish arbitcycle --botConf ./path/botconfig.cfg --stratConf ./path/arbitcycle.cfg`
+const cuttleExamples = `  cuttlefish claimable --conf ./path/config.cfg`
 
 var cuttlefishSetupCmd = &cobra.Command{
 	Use:     "claimable",
